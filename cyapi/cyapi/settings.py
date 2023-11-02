@@ -42,11 +42,11 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',  # Здесь можно указать другие разрешения
-    ]
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.AllowAny',  # Здесь можно указать другие разрешения
+#     ]
+# }
 
 CORS_ORIGIN_ALLOW_ALL = True
 
