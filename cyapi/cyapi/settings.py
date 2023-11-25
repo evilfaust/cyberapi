@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-7j)q51l*)4mw)9_j@e&nic7f-%u41v$o=-6_#)9neyl4xatunq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cyberapi.emco.space', 'emcotech.site']
+ALLOWED_HOSTS = ['cyberapi.emco.space', 'emcotech.site', 'localhost','127.0.0.1']
 
 
 # Application definition
